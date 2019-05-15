@@ -1,0 +1,159 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Martin Jedwabny <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-emerald}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[circle,noedge,left]{./src/profile}
+\name{Martin}{Jedwabny}
+\position{Computer scientist{\enskip\cdotp\enskip}Software Engineer}
+\address{4 Rue Saint Louis, Bat. B, Apt. 8, 34000, Montpellier, France}
+
+\mobile{(+33) 6-0563-8406}
+\email{martinjedwabny@gmail.com}
+\github{martinjedwabny}
+\linkedin{martinjedwabny}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+% \quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+ {}
+ {}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Motivation letter}
+% How the letter is opened
+\letteropening{To whom it may concern,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+% \letterenclosure[Attached]{}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Martin Jedwabny~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+% \makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+  Dear Rafał Mantiuk,
+
+  I am writing to apply for the PhD Studentship in Machine Learning for Computer Graphics.
+  
+  About myself, my name is Martin Jedwabny, I am a computer science student from Universidad de Buenos Aires, Argentina.
+
+  I read the information you provided at your website and went as far as I could go with the papers you mentioned and 
+  I believe this is could be an excellent opportunity.
+
+  Having studied Computer Science at the University of Buenos Aires (6-year degree, equivalent to MSc. + BSc.), 
+  I had an excellent academic record and I developed a great interest in research, particularly in machine learning, algorithms and logics.
+  
+  At the same time, I pushed myself into working full time as a software engineer as well as being Teaching Assistant at my university. 
+  I have plenty of experience in the industry developing high quality software and teaching skills I developed in my time as an assistant.
+  
+  Currently, I am working at the GraphIK group in Montpellier, France, for a one year MSc. thesis internship funded by the EU project NoAW and
+  working under the supervision of Madalina Croitoru and Pierre Bisquert in the topics of voting, preference aggregation, argumentation,
+  logics and knowledge base reasoning, in order to finish my degree's thesis (around July or August). You can of course contact them for references.
+  
+  During the internship, I acquired an enormous set of skills for doing research under the guidance of my supervisors.
+  Reading papers efficiently, organization, academic writing, I believe these are skills you will find useful.
+  After a few months, we got a demonstration paper accepted at the AAMAS conference, one of the most important
+  Multi Agent System conference. We are also on the way of doing further conference submissions.
+  
+  On parallel and during my time at the university, I implemented numerous projects with popular ML frameworks
+  (Scikit Learn, Tensor flow) and acquired a considerable amount of experience in Machine Learning and Data Science.
+  Though my experience in Computer graphics is not as great as in other areas, I do think I could adapt easily
+  and read whatever amount of research in order to prepare for this opportunity, it is well worth it. Moreover, I do 
+  think my knowledge in ML is more than adequate.
+  
+  After completing the PhD, I plan to pursue further academic positions as it is my passion and quite frankly the only thing I am interested in doing in my future.
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
