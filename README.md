@@ -4,10 +4,10 @@ Personal CV. Written in LaTeX.
 
 ## Curriculum Vitae
 
-[![Résumé](https://raw.githubusercontent.com/martinjedwabny/CV/master/src/cv/cv.png)](https://raw.githubusercontent.com/martinjedwabny/CV/master/src/cv/cv.pdf)
+[![Résumé](https://raw.githubusercontent.com/martinjedwabny/cv/master/french/src/cv/cv.png)](https://raw.githubusercontent.com/martinjedwabny/cv/master/french/src/cv/cv.pdf)
 
 <embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url=https://raw.githubusercontent.com/martinjedwabny/CV/master/src/cv/cv.pdf?dl=0" width="700px" height="700px">
+viewer?embedded=true&url=https://raw.githubusercontent.com/martinjedwabny/cv/master/french/src/cv/cv.pdf?dl=0" width="700px" height="700px">
 
 ## Credit
 
